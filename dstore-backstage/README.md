@@ -1,29 +1,17 @@
-# mytest
+# Dstore商城后台
 
-## Project setup
+## 下载依赖npm包
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [在线地址](https://www.dongyiself.xyz/#/).
