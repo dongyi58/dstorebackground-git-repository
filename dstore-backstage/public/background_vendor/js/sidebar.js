@@ -1,0 +1,15 @@
+document.writeln("  <nav id=\"sidebar\">");
+document.writeln("       ");
+document.writeln("        <div class=\"sidebar-header d-flex align-items-center\">");
+document.writeln("          <div class=\"avatar\"><img src=\"./background_vendor/img/avatar-goku.jpg\" style=\"max-width:100%;height:100%\" alt=\"...\" class=\" rounded-circle\"></div>");
+document.writeln("          <div class=\"title\">");
+document.writeln("            <h1 class=\"h5\">GoodKid</h1>");
+document.writeln("            <p>Web Player</p>");
+document.writeln("          </div>");
+document.writeln("        </div>");
+document.writeln("   <span class=\"heading\">Main</span>");
+document.writeln("        <ul class=\"list-unstyled sidebar_list\">");
+document.writeln("          <li class=\"active\"><a href=\"/\"> <i class=\"iconfont icon-home\"></i>主页 </a></li>");
+document.writeln("          <li><a href=\"/goodsList\"> <i class=\"iconfont icon-shangpinguanli\"></i>商品管理 </a></li>");
+document.writeln("      ");
+document.writeln("      </nav>");

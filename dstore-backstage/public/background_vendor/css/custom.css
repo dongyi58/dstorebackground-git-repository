@@ -1,0 +1,149 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1190814_riuuc0568di.eot?t=1557818478855'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1190814_riuuc0568di.eot?t=1557818478855#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO0AAsAAAAAB+QAAANmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDRIJ/ATYCJAMMCwgABCAFhG0HPxvOBsieB9kpcyXxdtbquM8GAa/3eA8Bm0rmRP6O4AZnaS7zxMJGPvDcqxEp1KX0CpiyMCMH6KZnzISfNGuAgL7QDRBgZv6Pe6d/WgLzNTiXtWnszVEXYBxQQHvjWpRAgSToDWM3ETTE7RCASyYFiBq1zq+giQb0E4AY0FfI0Mxo0Q2FAhuBWTFVI5ZgYMu58jawmH9ffKJYNkgMBRjaZAcabD94W1RNiafQgSKIpzMDxixQQAGgQXSqtLZRiaIFKFxPVW3ONNEI5FSBOIaLfIUJ//BAIkCYgHwfgDxKTMLbAIsSdVFZctVbKQBMwAKWAPsAlBTeYyDTWY5TIGWG8e2pTx8+nff4/mPcExcyyI0XSyY5fTmz2nSp25MnLf1nz3pOWTFv1dTV81d2EaU9V6xIEa5aJVRqbGqPHQfYeHH+5czrDuUSgY5NQadexFu5MuX4x1S9fubl6fE6b9/U1L1/51fs+TZlTxv/1tNsaur++XtTLoUEZiFWy8Ngy+Pi07q2nmVt+t80azskj0XbWWtMyFh+iQbjF6207d7aolOnUu1mCp9Fh/27cRpomOtFzX6vdhNbhmxJeLHHx7WuOOdjBvW1zn/lfZxTsVmGK8f/Ol9Vhle2/k64lP3AYE79+lulqp+efaYtlm5tvXq3fUednX6lq/a3etPVpk27Q8IoA8EQeTvaFCWy3Q+i9FFId23aBCQAxJfUPFUNiJ+oCyrVj/sN+faUv/Ogwjfb0wC8YOEg1RNf0nTPwUaCIf5N4o4V2pcCndKuCIvChKKz2ksQyALTQQxwJvNmuD0lErPANsUySCwygsImB6rJAmDgUQJMbCqDS361Z3skN0wFoR0gn5kSCCKHQRJyGRSRO6gmE2CQyhcwiVLg0qrkS3rkqq9bfRjJMWnYrcC+qu/pyBC3ReEFicSROS3l1BviyAxg0UJF8okj8oinGDE8FesRsY692HexlrQbOY6PQ9i3SI3nfeI42BQu3KvqSvPuvgttqmNEFiMa1E0B9aXyeXRaO9YufP4CERIOGTeU9XhvEBYxG0dFFVKkA3qk8jqV3co+w6WEtRFiOtQL87lQLclMHBj1oSHVnSxEFZvrMyAc2CisVOvVVTVfXuO+3zrABQxVQgolNOHwPrInAhO3TWTPMat9BrsEAAAA') format('woff2'),
+    url('//at.alicdn.com/t/font_1190814_riuuc0568di.woff?t=1557818478855') format('woff'),
+    url('//at.alicdn.com/t/font_1190814_riuuc0568di.ttf?t=1557818478855') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1190814_riuuc0568di.svg?t=1557818478855#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shangpinguanli:before {
+    content: "\e631";
+  }
+  
+  .icon-home:before {
+    content: "\e60d";
+  }
+
+  .error{
+      color:#db6574;
+      padding:0 5px;
+     
+  }
+.help-block-none {
+    display: none;
+    position: relative;
+    background: #db6574;
+    color: #dadada;
+    padding: 5px;
+    vertical-align: super;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.help-block-none::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #db6574;
+    left: -3px;
+    top: 3px;
+    transform: rotate(50deg);
+    z-index: -1;
+}
+.file_input_box{
+  position: relative;
+}
+.file_input{
+    position: absolute;
+    left:0;
+    opacity: 0 !important;
+    line-height: 31px;
+}
+.file_name_input{
+  float: left;
+}
+.file_input_box #coverImg-error{
+  position: relative;
+  top:7px
+}
+.form-control-label i{
+  font-size: 12px;
+  color: #db6574;
+  font-style: inherit;
+}
+.g_nav_tabs{
+  border-bottom:1px solid  #444951;
+  padding:1rem 0;
+  margin-bottom:1rem;
+}
+.g_nav_tabs li{
+  width:100px;
+  text-align: center;
+}
+.g_nav_tabs li a{
+  color:#777
+}
+.active a{
+  color:#db6574 !important;
+}
+#img_zoom_overlay{
+  display:none;
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding-top:10em;
+   background-color: rgba(0, 0, 0, 0.43);
+   text-align:center;
+}
+.preview_td{cursor:pointer;}
+.zoom_img{
+   position: fixed;
+   width: 600px !important;
+   height:auto !important;
+   left: 50%;
+   margin-left: -300px;
+}
+.close_zoom{
+   position: absolute;
+   right: 2em;
+   top: 1em;
+   font-size: 40px;
+   color: #fff;
+   cursor:pointer;
+}
+.upload_img_body tr td input{
+      border:1px solid #444951;
+      background-color:transparent;
+      color:#777
+}
+
+.change_slide:hover{
+  cursor:pointer;
+  text-decoration: underline
+}
+.rightrow{
+  line-height: 2
+}
+#gi_panel .form-group{
+  border-bottom: 1px dotted #353535;
+  padding: .5rem 0;
+  margin:0
+}
+.gl_table td{
+  padding:.3rem
+}
+.enterBtn a{
+  padding:0 5px;
+}
+#g_btn button{
+  margin:0 5px;
+}
+#g_btn .ml-auto{
+  padding:1rem 25px;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background-color: #db6574 !important;
+}

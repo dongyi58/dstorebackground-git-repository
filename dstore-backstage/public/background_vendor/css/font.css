@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dark-dashboard";
+  src:url("../fonts/dark-dashboard.eot");
+  src:url("../fonts/dark-dashboard.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/dark-dashboard.woff") format("woff"),
+    url("../fonts/dark-dashboard.ttf") format("truetype"),
+    url("../fonts/dark-dashboard.svg#dark-dashboard") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-dicon]:before {
+  font-family: "dark-dashboard" !important;
+  content: attr(data-dicon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dicon-"]:before,
+[class*=" dicon-"]:before {
+  font-family: "dark-dashboard" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dicon-bars:before {
+  content: "\61";
+}
+.dicon-cloud:before {
+  content: "\62";
+}
+.dicon-computer:before {
+  content: "\63";
+}
+.dicon-contract:before {
+  content: "\64";
+}
+.dicon-controls:before {
+  content: "\65";
+}
+.dicon-dashboard:before {
+  content: "\66";
+}
+.dicon-email:before {
+  content: "\67";
+}
+.dicon-info:before {
+  content: "\69";
+}
+.dicon-layers:before {
+  content: "\6a";
+}
+.dicon-light-bulb:before {
+  content: "\6b";
+}
+.dicon-paper-and-pencil:before {
+  content: "\6c";
+}
+.dicon-pie-chart:before {
+  content: "\6d";
+}
+.dicon-pie-chart-1:before {
+  content: "\6e";
+}
+.dicon-presentation:before {
+  content: "\6f";
+}
+.dicon-settings:before {
+  content: "\70";
+}
+.dicon-settings-1:before {
+  content: "\71";
+}
+.dicon-three-cells:before {
+  content: "\72";
+}
+.dicon-writing-whiteboard:before {
+  content: "\73";
+}
+.dicon-magnifying-glass-browser:before {
+  content: "\74";
+}
+.dicon-new-file:before {
+  content: "\75";
+}
+.dicon-close:before {
+  content: "\76";
+}
+.dicon-flask:before {
+  content: "\77";
+}
+.dicon-grid:before {
+  content: "\78";
+}
+.dicon-picture:before {
+  content: "\79";
+}
+.dicon-website:before {
+  content: "\7a";
+}
+.dicon-line-chart:before {
+  content: "\41";
+}
+.dicon-log-out:before {
+  content: "\42";
+}
+.dicon-page:before {
+  content: "\43";
+}
+.dicon-log-out-1:before {
+  content: "\44";
+}
+.dicon-bill:before {
+  content: "\45";
+}
+.dicon-check:before {
+  content: "\46";
+}
+.dicon-list:before {
+  content: "\47";
+}
+.dicon-padnote:before {
+  content: "\48";
+}
+.dicon-pencil-case:before {
+  content: "\49";
+}
+.dicon-user:before {
+  content: "\4a";
+}
+.dicon-form-1:before {
+  content: "\4b";
+}
+.dicon-list-1:before {
+  content: "\4c";
+}
+.dicon-mail:before {
+  content: "\4d";
+}
+.dicon-presentation-1:before {
+  content: "\4e";
+}
+.dicon-logout:before {
+  content: "\4f";
+}
+.dicon-home:before {
+  content: "\50";
+}
+.dicon-windows:before {
+  content: "\51";
+}
+.dicon-chart:before {
+  content: "\52";
+}
+.dicon-repo-forked:before {
+  content: "\68";
+}
+.dicon-flow-branch:before {
+  content: "\53";
+}
+.dicon-user-outline:before {
+  content: "\54";
+}
+.dicon-user-1:before {
+  content: "\55";
+}
